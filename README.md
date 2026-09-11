@@ -1,4 +1,12 @@
-# Awesome-Responsible-AI-Governance
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Responsible-AI-Governance">
+    <img src="assets/banner.svg" alt="Awesome Responsible AI Governance Banner" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Responsible-AI-Governance/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Responsible-AI-Governance?style=social" alt="Stars" /></a> <a href="https://github.com/ishandutta2007/Awesome-Responsible-AI-Governance/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Responsible-AI-Governance?style=social" alt="Forks" /></a> <a href="https://github.com/ishandutta2007/Awesome-Responsible-AI-Governance/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 # 🛡️ Top Responsible AI Governance Platforms & Open-Source AI Governance
 
@@ -184,47 +192,29 @@ Commercial AI governance platforms provide centralized AI inventories, risk asse
 
 
 
-| Platform                                                                  | Company                      | Primary Focus                 | Key Capabilities                                                                               |
+> **Market Size & Landscape Dynamics (2026):** The global AI Governance, Risk, and Compliance (GRC) market is estimated at **$1.8B – $2.6B in 2026** (projected to reach $8B+ by 2030 at a 35%+ CAGR), propelled by strict regulatory enforcement worldwide (EU AI Act, NIST AI RMF, ISO/IEC 42001). The sector is currently **moderately fragmented**: enterprise IT giants (IBM, SAP, ServiceNow) lead horizontal IT compliance ecosystems, while high-velocity specialized AI pure-plays (Credo AI, Holistic AI, Fiddler AI, Modulos) provide deep domain moats across automated red teaming, fairness audits, and continuous LLM guardrails.
 
-| ------------------------------------------------------------------------- | ---------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------- |
-
-| [Credo AI](https://www.credo.ai/)                                         | Credo AI                     | AI Governance                 | AI inventory, risk, policy packs, regulatory mapping, controls, evidence and agent governance  |
-
-| [Holistic AI](https://www.holisticai.com/)                                | Holistic AI                  | AI Governance & Assurance     | AI discovery, risk assessment, bias testing, red teaming, monitoring and policy enforcement    |
-
-| [Monitaur](https://www.monitaur.ai/)                                      | Monitaur                     | Model Governance              | Model governance, model risk, lifecycle management, evidence and regulated-industry governance |
-
-| [Asenion](https://www.asenion.com/)                                       | Asenion / formerly Fairly AI | AI GRC                        | AI governance, risk, compliance and assurance                                                  |
-
-| [Trustible](https://trustible.com/)                                       | Trustible                    | AI GRC                        | AI inventory, risk scoring, vendor assessment, controls and audit evidence                     |
-
-| [Saidot](https://www.saidot.ai/)                                          | Saidot                       | AI Governance                 | Governance knowledge graph, policies, risks, controls, datasets, models and transparency       |
-
-| [Fiddler AI](https://www.fiddler.ai/)                                     | Fiddler AI                   | AI Observability & Governance | Model monitoring, explainability, evaluation, GenAI observability, guardrails and governance   |
-
-| [Arthur AI](https://www.arthur.ai/)                                       | Arthur                       | AI Observability & Governance | Model monitoring, AI evaluations, explainability, policies and agent governance                |
-
-| [CalypsoAI](https://www.calypsoai.com/)                                   | CalypsoAI                    | AI Security & Governance      | AI security, model governance, GenAI security, policy and monitoring                           |
-
-| [ModelOp](https://www.modelop.com/)                                       | ModelOp                      | ModelOps & AI Governance      | AI inventory, lifecycle governance, risk, controls, approvals and enterprise AI oversight      |
-
-| [IBM watsonx.governance](https://www.ibm.com/products/watsonx-governance) | IBM                          | Enterprise AI Governance      | Model governance, AI inventory, risk, compliance, factsheets and lifecycle workflows           |
-
-| [OneTrust AI Governance](https://www.onetrust.com/)                       | OneTrust                     | AI GRC                        | AI inventory, risk, privacy, compliance and governance                                         |
-
-| [ServiceNow AI Control Tower](https://www.servicenow.com/)                | ServiceNow                   | Enterprise AI Governance      | AI inventory, lifecycle, risk, compliance and workflow                                         |
-
-| [SAP LeanIX AI Governance](https://www.sap.com/products/leanix.html)      | SAP                          | AI Governance / EA            | AI inventory, ownership, architecture and governance                                           |
-
-| [LatticeFlow AI](https://latticeflow.ai/)                                 | LatticeFlow                  | AI Quality & Governance       | AI quality, data/model testing, risk and compliance                                            |
-
-| [Modulos](https://www.modulos.ai/)                                        | Modulos                      | AI Governance                 | AI governance, risk, compliance and model lifecycle                                            |
-
-| [Arize AI](https://arize.com/)                                            | Arize                        | AI Observability              | Model monitoring, evaluation, tracing and LLM observability                                    |
-
-| [Aporia](https://www.aporia.com/)                                         | Aporia                       | ML Monitoring                 | Model monitoring, drift, performance, bias and explainability                                  |
-
-| [Superwise](https://www.superwise.ai/)                                    | Superwise                    | Model Governance & Monitoring | Model monitoring, drift, bias and operational risk                                             |
+| Platform | Company | Company Scale (Rev / Valuation) | Primary Focus | Key Capabilities | Pricing | Free Tier Limits |
+| --- | --- | --- | --- | --- | --- | --- |
+| [IBM watsonx.governance](https://www.ibm.com/products/watsonx-governance) | IBM | Mega Enterprise (~$62B+ Revenue / ~$190B+ Market Cap) | Enterprise AI Governance | Model governance, AI inventory, risk, compliance, factsheets and lifecycle workflows | Essentials tier from $0.64/Resource Unit; Risk & Compliance starting at ~$3,500/month | Free "Lite" plan available on IBM Cloud: up to 200 Resource Units (RUs), 1,000 records per evaluation, 3 use cases, 1 inventory, 100 MB internal PostgreSQL database |
+| [SAP LeanIX AI Governance](https://www.sap.com/products/leanix.html) | SAP | Mega Enterprise (~$35B+ Revenue / ~$240B+ Market Cap) | AI Governance / EA | AI inventory, ownership, architecture and governance | Modular subscription priced by number of applications in portfolio (includes unlimited users) | No self-service free trial; guided product demos and custom evaluations provided by SAP |
+| [ServiceNow AI Control Tower](https://www.servicenow.com/) | ServiceNow | Mega Enterprise (~$10B+ Revenue / ~$180B+ Market Cap) | Enterprise AI Governance | AI inventory, lifecycle, risk, compliance and workflow | Bundled into ServiceNow AI-native tiers (Foundation, Advanced, Prime) with consumption metered per AI "assist" | No separate free tier; available within ServiceNow trial instances or enterprise POC environments |
+| [CalypsoAI](https://www.calypsoai.com/) | CalypsoAI (F5) | Enterprise Division (F5 ~$2.8B Revenue / ~$15B Market Cap) | AI Security & Governance | AI security, model governance, GenAI security, policy and monitoring | Enterprise contract via F5 / AWS Marketplace (annual contracts typically baseline ~$100,000/year depending on scope) | No self-service free tier or public trial; private enterprise POCs and live demos available via F5 |
+| [OneTrust AI Governance](https://www.onetrust.com/) | OneTrust | Large Enterprise / Unicorn (~$400M+ ARR / ~$5.3B Valuation) | AI GRC | AI inventory, risk, privacy, compliance and governance | Standalone modules starting at ~$50,000/year (metered by admin users and AI inventory asset count) | No self-service free tier or public trial; custom enterprise sandbox demos provided during vendor evaluation |
+| [Arize AI](https://arize.com/) | Arize | Late-Stage Growth (~$40M+ ARR / ~$500M+ Valuation) | AI Observability | Model monitoring, evaluation, tracing and LLM observability | $50/month (AX Pro tier for 100,000 spans/month and 100 GB data ingestion; Enterprise custom) | Free tier available (AX Free): up to 25,000 trace spans/month, 1 GB data ingestion/month, 7-day retention, 1 user; Arize Phoenix is free and open source |
+| [Fiddler AI](https://www.fiddler.ai/) | Fiddler AI | Mid-Stage Venture (~$20M+ ARR / ~$250M Valuation) | AI Observability & Governance | Model monitoring, explainability, evaluation, GenAI observability, guardrails and governance | $0.002/trace (Developer usage tier; Enterprise custom tier available) | Free tier available: real-time Centor guardrails (<80ms latency for toxicity, PII/PHI, prompt injection, hallucinations); observability features require Developer/Enterprise tier |
+| [Credo AI](https://www.credo.ai/) | Credo AI | Mid-Stage Venture (~$15M+ ARR / ~$150M Valuation) | AI Governance | AI inventory, risk, policy packs, regulatory mapping, controls, evidence and agent governance | Starts at ~$30,000/year (enterprise contract based on managed AI use cases) | No free tier or self-service trial; free public AI Governance Insights Hub and demo available upon request |
+| [Holistic AI](https://www.holisticai.com/) | Holistic AI | Growth Stage (~$12M+ ARR / ~$120M Valuation) | AI Governance & Assurance | AI discovery, risk assessment, bias testing, red teaming, monitoring and policy enforcement | Quote-based enterprise subscription (typically varies by scope, starting tiers tailored to compliance needs) | No self-service free tier; guided pilot projects and live demos available upon consultation |
+| [ModelOp](https://www.modelop.com/) | ModelOp | Growth Stage (~$10M+ ARR / ~$100M Valuation) | ModelOps & AI Governance | AI inventory, lifecycle governance, risk, controls, approvals and enterprise AI oversight | Annual subscription license (priced by volume of managed AI models/solutions) | No public free tier or free trial; product tours and tailored sandbox demos available on request |
+| [Arthur AI](https://www.arthur.ai/) | Arthur | Growth Stage (~$8M+ ARR / ~$80M Valuation) | AI Observability & Governance | Model monitoring, AI evaluations, explainability, policies and agent governance | $60/month (Premium tier up to 100 use cases; Enterprise custom) | Free tier available ($0/month): up to 4 use cases with core metrics and cloud data connectors; Arthur Bench open-source evaluation engine is free |
+| [LatticeFlow AI](https://latticeflow.ai/) | LatticeFlow | Series A (~$6M+ ARR / ~$60M Valuation) | AI Quality & Governance | AI quality, data/model testing, risk and compliance | Enterprise annual subscription based on number of models and regulatory audit scope | 30-day guided AI governance trial available upon sales inquiry; no self-service free tier |
+| [Aporia](https://www.aporia.com/) | Aporia | Series A (~$5M+ ARR / ~$50M Valuation) | ML Monitoring | Model monitoring, drift, performance, bias and explainability | Custom usage-based pricing per model in production (historical base tiers from $99/month; AWS Marketplace private offers) | Community Free plan: 1 monitored model, 10,000 predictions/month, 100 features/model, 3 team members, 1-week retention; 14-day free trial for paid features (no credit card required) |
+| [Trustible](https://trustible.com/) | Trustible | Early Stage (~$3M+ ARR / ~$35M Valuation) | AI GRC | AI inventory, risk scoring, vendor assessment, controls and audit evidence | Custom annual subscription (metered by managed AI systems and assessment modules) | No free trial; free access to open-source AI Governance Insights Center and risk taxonomies |
+| [Saidot](https://www.saidot.ai/) | Saidot | Early Stage (~$3M+ ARR / ~$30M Valuation) | AI Governance | Governance knowledge graph, policies, risks, controls, datasets, models and transparency | Tiered subscription based on AI assets and seats (typically billed annually in EUR/USD) | No permanent free tier; facilitated pilot project and trial environment provided upon request |
+| [Modulos](https://www.modulos.ai/) | Modulos | Early Stage (~$2.5M+ ARR / ~$25M Valuation) | AI Governance | AI governance, risk, compliance and model lifecycle | Paid tiers starting at ~$50,000/year (priced by number of AI systems governed) | Free Starter Plan available: free for 1 AI-app project and 1 user with mapping for EU AI Act / ISO 42001 / NIST AI RMF |
+| [Monitaur](https://www.monitaur.ai/) | Monitaur | Early Stage (~$2M+ ARR / ~$20M Valuation) | Model Governance | Model governance, model risk, lifecycle management, evidence and regulated-industry governance | Custom subscription per model/module (enterprise agreements typically start on an annual basis) | No free tier or public trial; interactive demos and free access to AI Trust Library resources provided |
+| [Superwise](https://www.superwise.ai/) | Superwise | Early Stage (~$2M+ ARR / ~$20M Valuation) | Model Governance & Monitoring | Model monitoring, drift, bias and operational risk | $10/month (Solo tier, 1 Sentinel deployment; Pro at $25/month up to 5 Sentinels) | Free Forever Starter tier: 1 agent and 1 dataset with real-time observability and guardrails; 30-day free trial on paid tiers (no credit card required) |
+| [Asenion](https://www.asenion.com/) | Asenion / formerly Fairly AI | Early Stage (~$1.5M+ ARR / ~$15M Valuation) | AI GRC | AI governance, risk, compliance and assurance | Starts at $99/month (basic SMB tier; enterprise plans scaled per AI application) | No permanent free tier; 30-day proof-of-concept (POC) trial or 30-day money-back guarantee |
 
 
 
@@ -298,33 +288,20 @@ There are relatively few genuinely open-source projects that attempt to provide 
 
 
 
-| Project                                                       | Focus                               | Status         |
-
-| ------------------------------------------------------------- | ----------------------------------- | -------------- |
-
-| [AI Verify](https://github.com/aisingapore/ai-verify)         | AI governance testing and assurance | 🟢 Open Source |
-
-| [AI Verify Project](https://aiverifyfoundation.sg/)           | Responsible AI testing ecosystem    | 🟢 Open Source |
-
-| [Giskard](https://github.com/Giskard-AI/giskard)              | AI quality, testing and risk        | 🟢 Open Source |
-
-| [Evidently](https://github.com/evidentlyai/evidently)         | AI evaluation and monitoring        | 🟢 Open Source |
-
-| [MLflow](https://github.com/mlflow/mlflow)                    | ML lifecycle and model governance   | 🟢 Open Source |
-
-| [Kubeflow](https://github.com/kubeflow/kubeflow)              | ML lifecycle infrastructure         | 🟢 Open Source |
-
-| [NIST Dioptra](https://github.com/usnistgov/dioptra)          | AI testing / risk assessment        | 🟢 Open Source |
-
-| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)  | AI evaluation                       | 🟢 Open Source |
-
-| [Deepchecks](https://github.com/deepchecks/deepchecks)        | ML validation                       | 🟢 Open Source |
-
-| [AIF360](https://github.com/Trusted-AI/AIF360)                | Fairness and bias                   | 🟢 Open Source |
-
-| [Fairlearn](https://github.com/fairlearn/fairlearn)           | Fairness assessment                 | 🟢 Open Source |
-
-| [Open Policy Agent](https://github.com/open-policy-agent/opa) | Policy-as-code                      | 🟢 Open Source |
+| Project | Stars | Focus | Status |
+| --- | :---: | --- | :---: |
+| [MLflow](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | ML lifecycle and model governance | 🟢 Open Source |
+| [Kubeflow](https://github.com/kubeflow/kubeflow) | [![Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers) | ML lifecycle infrastructure | 🟢 Open Source |
+| [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Policy-as-code & guardrails | 🟢 Open Source |
+| [Evidently](https://github.com/evidentlyai/evidently) | [![Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers) | AI evaluation, drift, and monitoring | 🟢 Open Source |
+| [Giskard](https://github.com/Giskard-AI/giskard) | [![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard?style=social&color=white)](https://github.com/Giskard-AI/giskard/stargazers) | AI quality, testing and risk | 🟢 Open Source |
+| [Deepchecks](https://github.com/deepchecks/deepchecks) | [![Stars](https://img.shields.io/github/stars/deepchecks/deepchecks?style=social&color=white)](https://github.com/deepchecks/deepchecks/stargazers) | ML validation and continuous integrity | 🟢 Open Source |
+| [AIF360](https://github.com/Trusted-AI/AIF360) | [![Stars](https://img.shields.io/github/stars/Trusted-AI/AIF360?style=social&color=white)](https://github.com/Trusted-AI/AIF360/stargazers) | Fairness and bias assessment | 🟢 Open Source |
+| [Fairlearn](https://github.com/fairlearn/fairlearn) | [![Stars](https://img.shields.io/github/stars/fairlearn/fairlearn?style=social&color=white)](https://github.com/fairlearn/fairlearn/stargazers) | Fairness assessment and mitigation | 🟢 Open Source |
+| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) | [![Stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers) | AI evaluation & safety benchmarks | 🟢 Open Source |
+| [AI Verify](https://github.com/aisingapore/ai-verify) | [![Stars](https://img.shields.io/github/stars/aisingapore/ai-verify?style=social&color=white)](https://github.com/aisingapore/ai-verify/stargazers) | AI governance testing and assurance | 🟢 Open Source |
+| [NIST Dioptra](https://github.com/usnistgov/dioptra) | [![Stars](https://img.shields.io/github/stars/usnistgov/dioptra?style=social&color=white)](https://github.com/usnistgov/dioptra/stargazers) | AI testing / risk assessment | 🟢 Open Source |
+| [AI Verify Project](https://aiverifyfoundation.sg/) | 🌐 Framework | Responsible AI testing ecosystem | 🟢 Open Source |
 
 
 
@@ -394,29 +371,18 @@ Audit
 
 
 
-| Project                                                       | Role                             |
-
-| ------------------------------------------------------------- | -------------------------------- |
-
-| [AI Verify](https://github.com/aisingapore/ai-verify)         | Responsible AI testing framework |
-
-| [NIST Dioptra](https://github.com/usnistgov/dioptra)          | AI risk testing and evaluation   |
-
-| [Open Policy Agent](https://github.com/open-policy-agent/opa) | Policy-as-code                   |
-
-| [Kyverno](https://github.com/kyverno/kyverno)                 | Kubernetes policy engine         |
-
-| [Gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Policy enforcement               |
-
-| [Giskard](https://github.com/Giskard-AI/giskard)              | AI quality and risk testing      |
-
-| [MLflow](https://github.com/mlflow/mlflow)                    | Model lifecycle and governance   |
-
-| [Kubeflow](https://github.com/kubeflow/kubeflow)              | ML lifecycle orchestration       |
-
-| [OpenLineage](https://github.com/OpenLineage/OpenLineage)     | Data / job lineage               |
-
-| [Marquez](https://github.com/MarquezProject/marquez)          | Metadata and lineage             |
+| Project | Stars | Role |
+| --- | :---: | --- |
+| [MLflow](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | Model lifecycle, metadata, and governance |
+| [Kubeflow](https://github.com/kubeflow/kubeflow) | [![Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers) | ML lifecycle orchestration and pipelines |
+| [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Policy-as-code and automated admission |
+| [Kyverno](https://github.com/kyverno/kyverno) | [![Stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers) | Kubernetes native policy engine |
+| [Giskard](https://github.com/Giskard-AI/giskard) | [![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard?style=social&color=white)](https://github.com/Giskard-AI/giskard/stargazers) | AI quality and risk testing |
+| [Gatekeeper](https://github.com/open-policy-agent/gatekeeper) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=social&color=white)](https://github.com/open-policy-agent/gatekeeper/stargazers) | OPA Kubernetes policy enforcement |
+| [OpenLineage](https://github.com/OpenLineage/OpenLineage) | [![Stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers) | Open standard for data / pipeline lineage |
+| [Marquez](https://github.com/MarquezProject/marquez) | [![Stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers) | Lineage metadata service and audit catalog |
+| [AI Verify](https://github.com/aisingapore/ai-verify) | [![Stars](https://img.shields.io/github/stars/aisingapore/ai-verify?style=social&color=white)](https://github.com/aisingapore/ai-verify/stargazers) | Responsible AI testing framework |
+| [NIST Dioptra](https://github.com/usnistgov/dioptra) | [![Stars](https://img.shields.io/github/stars/usnistgov/dioptra?style=social&color=white)](https://github.com/usnistgov/dioptra/stargazers) | AI risk testing, adversarial evaluation |
 
 
 
@@ -476,23 +442,15 @@ Mitigation
 
 
 
-| Project                                                                       | Description                        |
-
-| ----------------------------------------------------------------------------- | ---------------------------------- |
-
-| [Fairlearn](https://github.com/fairlearn/fairlearn)                           | Fairness assessment and mitigation |
-
-| [AI Fairness 360](https://github.com/Trusted-AI/AIF360)                       | Comprehensive fairness toolkit     |
-
-| [Aequitas](https://github.com/dssg/aequitas)                                  | Bias auditing                      |
-
-| [Fairness Indicators](https://github.com/tensorflow/fairness-indicators)      | Fairness evaluation                |
-
-| [What-If Tool](https://github.com/PAIR-code/what-if-tool)                     | Interactive model analysis         |
-
-| [Themis-ML](https://github.com/cosmicBboy/themis-ml)                          | Fairness-aware ML                  |
-
-| [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) | Integrated Responsible AI tooling  |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [AI Fairness 360](https://github.com/Trusted-AI/AIF360) | [![Stars](https://img.shields.io/github/stars/Trusted-AI/AIF360?style=social&color=white)](https://github.com/Trusted-AI/AIF360/stargazers) | Comprehensive fairness metrics & mitigation toolkit |
+| [Fairlearn](https://github.com/fairlearn/fairlearn) | [![Stars](https://img.shields.io/github/stars/fairlearn/fairlearn?style=social&color=white)](https://github.com/fairlearn/fairlearn/stargazers) | Fairness assessment and disparity mitigation |
+| [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) | [![Stars](https://img.shields.io/github/stars/microsoft/responsible-ai-toolbox?style=social&color=white)](https://github.com/microsoft/responsible-ai-toolbox/stargazers) | Integrated fairness, interpretability & error analysis |
+| [What-If Tool](https://github.com/PAIR-code/what-if-tool) | [![Stars](https://img.shields.io/github/stars/PAIR-code/what-if-tool?style=social&color=white)](https://github.com/PAIR-code/what-if-tool/stargazers) | Interactive model analysis and fairness probes |
+| [Aequitas](https://github.com/dssg/aequitas) | [![Stars](https://img.shields.io/github/stars/dssg/aequitas?style=social&color=white)](https://github.com/dssg/aequitas/stargazers) | Comprehensive bias & fairness auditing toolkit |
+| [Fairness Indicators](https://github.com/tensorflow/fairness-indicators) | [![Stars](https://img.shields.io/github/stars/tensorflow/fairness-indicators?style=social&color=white)](https://github.com/tensorflow/fairness-indicators/stargazers) | TF fairness evaluation and subgroup analysis |
+| [Themis-ML](https://github.com/cosmicBboy/themis-ml) | [![Stars](https://img.shields.io/github/stars/cosmicBboy/themis-ml?style=social&color=white)](https://github.com/cosmicBboy/themis-ml/stargazers) | Fairness-aware machine learning library |
 
 
 
@@ -544,25 +502,16 @@ Explanation Engine
 
 
 
-| Project                                                                       | Description                             |
-
-| ----------------------------------------------------------------------------- | --------------------------------------- |
-
-| [SHAP](https://github.com/shap/shap)                                          | Shapley-based explanations              |
-
-| [LIME](https://github.com/marcotcr/lime)                                      | Local interpretable explanations        |
-
-| [InterpretML](https://github.com/interpretml/interpret)                       | Explainable models and interpretability |
-
-| [Captum](https://github.com/pytorch/captum)                                   | PyTorch interpretability                |
-
-| [ELI5](https://github.com/TeamHG-Memex/eli5)                                  | Model inspection and explanation        |
-
-| [Alibi](https://github.com/SeldonIO/alibi)                                    | Explainability and outlier detection    |
-
-| [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) | Integrated explainability               |
-
-| [What-If Tool](https://github.com/PAIR-code/what-if-tool)                     | Interactive analysis                    |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [SHAP](https://github.com/shap/shap) | [![Stars](https://img.shields.io/github/stars/shap/shap?style=social&color=white)](https://github.com/shap/shap/stargazers) | Game-theoretic Shapley-based explanations |
+| [LIME](https://github.com/marcotcr/lime) | [![Stars](https://img.shields.io/github/stars/marcotcr/lime?style=social&color=white)](https://github.com/marcotcr/lime/stargazers) | Local Interpretable Model-agnostic Explanations |
+| [InterpretML](https://github.com/interpretml/interpret) | [![Stars](https://img.shields.io/github/stars/interpretml/interpret?style=social&color=white)](https://github.com/interpretml/interpret/stargazers) | Explainable boosting machines & interpretability |
+| [Captum](https://github.com/pytorch/captum) | [![Stars](https://img.shields.io/github/stars/pytorch/captum?style=social&color=white)](https://github.com/pytorch/captum/stargazers) | PyTorch model interpretability and attribution |
+| [ELI5](https://github.com/TeamHG-Memex/eli5) | [![Stars](https://img.shields.io/github/stars/TeamHG-Memex/eli5?style=social&color=white)](https://github.com/TeamHG-Memex/eli5/stargazers) | Model inspection, debugging, and text attribution |
+| [Alibi](https://github.com/SeldonIO/alibi) | [![Stars](https://img.shields.io/github/stars/SeldonIO/alibi?style=social&color=white)](https://github.com/SeldonIO/alibi/stargazers) | Explainability, counterfactuals, and outlier detection |
+| [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) | [![Stars](https://img.shields.io/github/stars/microsoft/responsible-ai-toolbox?style=social&color=white)](https://github.com/microsoft/responsible-ai-toolbox/stargazers) | Holistic explainability & model performance dashboards |
+| [What-If Tool](https://github.com/PAIR-code/what-if-tool) | [![Stars](https://img.shields.io/github/stars/PAIR-code/what-if-tool?style=social&color=white)](https://github.com/PAIR-code/what-if-tool/stargazers) | Interactive counterfactual analysis |
 
 
 
@@ -632,25 +581,16 @@ Governance Review
 
 
 
-| Project                                                  | Description                                 |
-
-| -------------------------------------------------------- | ------------------------------------------- |
-
-| [Evidently](https://github.com/evidentlyai/evidently)    | ML/LLM evaluation and monitoring            |
-
-| [NannyML](https://github.com/NannyML/nannyml)            | Post-deployment performance estimation      |
-
-| [Alibi Detect](https://github.com/SeldonIO/alibi-detect) | Drift, outlier and adversarial detection    |
-
-| [whylogs](https://github.com/whylabs/whylogs)            | Statistical data profiling                  |
-
-| [Deepchecks](https://github.com/deepchecks/deepchecks)   | Data and model validation                   |
-
-| [MLflow](https://github.com/mlflow/mlflow)               | Model lifecycle and monitoring integrations |
-
-| [Prometheus](https://github.com/prometheus/prometheus)   | Metrics infrastructure                      |
-
-| [Grafana](https://github.com/grafana/grafana)            | Monitoring dashboards                       |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [Grafana](https://github.com/grafana/grafana) | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | Monitoring dashboards, observability UI, and alerts |
+| [Prometheus](https://github.com/prometheus/prometheus) | [![Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers) | Time-series metrics infrastructure and scraper |
+| [MLflow](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | Model lifecycle, registry, and production monitoring integrations |
+| [Evidently](https://github.com/evidentlyai/evidently) | [![Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers) | Production ML & LLM drift, quality, and monitoring dashboards |
+| [whylogs](https://github.com/whylabs/whylogs) | [![Stars](https://img.shields.io/github/stars/whylabs/whylogs?style=social&color=white)](https://github.com/whylabs/whylogs/stargazers) | Statistical data profiling and lightweight telemetry |
+| [Deepchecks](https://github.com/deepchecks/deepchecks) | [![Stars](https://img.shields.io/github/stars/deepchecks/deepchecks?style=social&color=white)](https://github.com/deepchecks/deepchecks/stargazers) | Continuous model validation, integrity, and test suites |
+| [NannyML](https://github.com/NannyML/nannyml) | [![Stars](https://img.shields.io/github/stars/NannyML/nannyml?style=social&color=white)](https://github.com/NannyML/nannyml/stargazers) | Post-deployment performance estimation without ground truth |
+| [Alibi Detect](https://github.com/SeldonIO/alibi-detect) | [![Stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers) | Real-time drift, outlier, and adversarial attack detection |
 
 
 
@@ -670,29 +610,18 @@ Evaluation is increasingly becoming one of the most important technical componen
 
 
 
-| Project                                                                      | Focus                         |
-
-| ---------------------------------------------------------------------------- | ----------------------------- |
-
-| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)                 | LLM evaluation                |
-
-| [DeepEval](https://github.com/confident-ai/deepeval)                         | LLM evaluation                |
-
-| [Giskard](https://github.com/Giskard-AI/giskard)                             | AI testing                    |
-
-| [Ragas](https://github.com/explodinggradients/ragas)                         | RAG evaluation                |
-
-| [promptfoo](https://github.com/promptfoo/promptfoo)                          | LLM evaluation and testing    |
-
-| [Evidently](https://github.com/evidentlyai/evidently)                        | LLM evaluation and monitoring |
-
-| [OpenAI Evals](https://github.com/openai/evals)                              | Model evaluation framework    |
-
-| [DeepTeam](https://github.com/confident-ai/deepteam)                         | LLM red teaming               |
-
-| [NIST Dioptra](https://github.com/usnistgov/dioptra)                         | AI testing                    |
-
-| [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) | LLM benchmarking              |
+| Project | Stars | Focus |
+| --- | :---: | --- |
+| [OpenAI Evals](https://github.com/openai/evals) | [![Stars](https://img.shields.io/github/stars/openai/evals?style=social&color=white)](https://github.com/openai/evals/stargazers) | Model evaluation framework and benchmark suites |
+| [Ragas](https://github.com/explodinggradients/ragas) | [![Stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers) | RAG pipeline evaluation & metric generation |
+| [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) | [![Stars](https://img.shields.io/github/stars/EleutherAI/lm-evaluation-harness?style=social&color=white)](https://github.com/EleutherAI/lm-evaluation-harness/stargazers) | Standardized LLM few-shot benchmarking |
+| [Evidently](https://github.com/evidentlyai/evidently) | [![Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers) | LLM evaluation, quality metrics, and monitoring |
+| [DeepEval](https://github.com/confident-ai/deepeval) | [![Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers) | Production LLM unit testing and evaluators |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | [![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers) | LLM prompt testing, security evals, and CI/CD assertions |
+| [Giskard](https://github.com/Giskard-AI/giskard) | [![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard?style=social&color=white)](https://github.com/Giskard-AI/giskard/stargazers) | LLM hallucination and vulnerability testing |
+| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) | [![Stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers) | AI safety, red teaming & evaluation framework |
+| [DeepTeam](https://github.com/confident-ai/deepteam) | [![Stars](https://img.shields.io/github/stars/confident-ai/deepteam?style=social&color=white)](https://github.com/confident-ai/deepteam/stargazers) | Automated LLM red teaming and vulnerability probing |
+| [NIST Dioptra](https://github.com/usnistgov/dioptra) | [![Stars](https://img.shields.io/github/stars/usnistgov/dioptra?style=social&color=white)](https://github.com/usnistgov/dioptra/stargazers) | Adversarial AI testing & risk benchmarking |
 
 
 
@@ -746,27 +675,17 @@ Responsible AI governance increasingly requires adversarial testing.
 
 
 
-| Project                                                                                        | Description                        |
-
-| ---------------------------------------------------------------------------------------------- | ---------------------------------- |
-
-| [PyRIT](https://github.com/Azure/PyRIT)                                                        | Generative AI red teaming          |
-
-| [Garak](https://github.com/NVIDIA/garak)                                                       | LLM vulnerability scanning         |
-
-| [promptfoo](https://github.com/promptfoo/promptfoo)                                            | LLM testing and red teaming        |
-
-| [DeepTeam](https://github.com/confident-ai/deepteam)                                           | LLM red teaming                    |
-
-| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)                                   | AI evaluation and security testing |
-
-| [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/NeMo-Guardrails)                       | Programmable LLM controls          |
-
-| [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | Adversarial ML                     |
-
-| [TextAttack](https://github.com/QData/TextAttack)                                              | NLP adversarial attacks            |
-
-| [Counterfit](https://github.com/Azure/counterfit)                                              | AI security testing                |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | [![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers) | Automated LLM red teaming, jailbreak testing & security |
+| [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | [![Stars](https://img.shields.io/github/stars/Trusted-AI/adversarial-robustness-toolbox?style=social&color=white)](https://github.com/Trusted-AI/adversarial-robustness-toolbox/stargazers) | Comprehensive library for adversarial ML attacks & defenses |
+| [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/NeMo-Guardrails) | [![Stars](https://img.shields.io/github/stars/NVIDIA-NeMo/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA-NeMo/NeMo-Guardrails/stargazers) | Programmable LLM jailbreak prevention and safety controls |
+| [Garak](https://github.com/NVIDIA/garak) | [![Stars](https://img.shields.io/github/stars/NVIDIA/garak?style=social&color=white)](https://github.com/NVIDIA/garak/stargazers) | Comprehensive LLM vulnerability and red-team scanner |
+| [TextAttack](https://github.com/QData/TextAttack) | [![Stars](https://img.shields.io/github/stars/QData/TextAttack?style=social&color=white)](https://github.com/QData/TextAttack/stargazers) | NLP adversarial attacks, data augmentation, and robustness |
+| [PyRIT](https://github.com/Azure/PyRIT) | [![Stars](https://img.shields.io/github/stars/Azure/PyRIT?style=social&color=white)](https://github.com/Azure/PyRIT/stargazers) | Microsoft Python Risk Identification Toolkit for GenAI |
+| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) | [![Stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers) | Safety and security evaluation for LLMs and agents |
+| [Counterfit](https://github.com/Azure/counterfit) | [![Stars](https://img.shields.io/github/stars/Azure/counterfit?style=social&color=white)](https://github.com/Azure/counterfit/stargazers) | Automation tool for security assessments of ML models |
+| [DeepTeam](https://github.com/confident-ai/deepteam) | [![Stars](https://img.shields.io/github/stars/confident-ai/deepteam?style=social&color=white)](https://github.com/confident-ai/deepteam/stargazers) | Red-teaming toolkit for LLMs and agent safety |
 
 
 
@@ -834,25 +753,15 @@ User
 
 
 
-| Project                                                                 | Description                          |
-
-| ----------------------------------------------------------------------- | ------------------------------------ |
-
-| [NeMo Guardrails](https://github.com/NVIDIA-NeMo/NeMo-Guardrails)       | Programmable LLM guardrails          |
-
-| [Guardrails AI](https://github.com/guardrails-ai/guardrails)            | LLM output validation and guardrails |
-
-| [Open Policy Agent](https://github.com/open-policy-agent/opa)           | General policy engine                |
-
-| [LiteLLM](https://github.com/BerriAI/litellm)                           | LLM gateway and policy integrations  |
-
-| [LLM Guard](https://github.com/protectai/llm-guard)                     | Security and privacy scanners        |
-
-| [Llama Guard](https://github.com/meta-llama/PurpleLlama)                | LLM safety classification            |
-
-| [Presidio](https://github.com/microsoft/presidio)                       | PII detection and anonymization      |
-
-| [NVIDIA NIM Guardrails](https://github.com/NVIDIA-NeMo/NeMo-Guardrails) | NVIDIA guardrail ecosystem           |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [LiteLLM](https://github.com/BerriAI/litellm) | [![Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers) | Universal LLM proxy, budget limits, rate limiting & guardrails |
+| [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | General-purpose policy engine for runtime AI decision rules |
+| [Guardrails AI](https://github.com/guardrails-ai/guardrails) | [![Stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers) | Output validation, structured response enforcement, and PII shields |
+| [Microsoft Presidio](https://github.com/microsoft/presidio) | [![Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers) | Context-aware PII detection and anonymization guardrail |
+| [NeMo Guardrails](https://github.com/NVIDIA-NeMo/NeMo-Guardrails) | [![Stars](https://img.shields.io/github/stars/NVIDIA-NeMo/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA-NeMo/NeMo-Guardrails/stargazers) | Programmable Colang guardrails for LLM safety and topic adherence |
+| [LLM Guard](https://github.com/protectai/llm-guard) | [![Stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers) | Security, sanitization, and privacy scanners for LLM I/O |
+| [Llama Guard](https://github.com/meta-llama/PurpleLlama) | [![Stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers) | Meta safety classifier for LLM input and output safety checks |
 
 
 
@@ -868,23 +777,15 @@ Responsible AI programs need controls over sensitive information.
 
 
 
-| Project                                                       | Description                     |
-
-| ------------------------------------------------------------- | ------------------------------- |
-
-| [Microsoft Presidio](https://github.com/microsoft/presidio)   | PII detection and anonymization |
-
-| [OpenDP](https://github.com/opendp/opendp)                    | Differential privacy            |
-
-| [ARX](https://github.com/arx-deidentifier/arx)                | Data anonymization              |
-
-| [synthcity](https://github.com/vanderschaarlab/synthcity)     | Synthetic data                  |
-
-| [SDV](https://github.com/sdv-dev/SDV)                         | Synthetic data generation       |
-
-| [Opacus](https://github.com/pytorch/opacus)                   | Differentially private ML       |
-
-| [Open Policy Agent](https://github.com/open-policy-agent/opa) | Policy enforcement              |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Fine-grained data access and privacy policy enforcement |
+| [Microsoft Presidio](https://github.com/microsoft/presidio) | [![Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers) | Production-grade PII detection and anonymization SDK |
+| [SDV](https://github.com/sdv-dev/SDV) | [![Stars](https://img.shields.io/github/stars/sdv-dev/SDV?style=social&color=white)](https://github.com/sdv-dev/SDV/stargazers) | Synthetic Data Vault for privacy-preserving data sharing |
+| [Opacus](https://github.com/pytorch/opacus) | [![Stars](https://img.shields.io/github/stars/pytorch/opacus?style=social&color=white)](https://github.com/pytorch/opacus/stargazers) | High-speed differential privacy library for PyTorch |
+| [synthcity](https://github.com/vanderschaarlab/synthcity) | [![Stars](https://img.shields.io/github/stars/vanderschaarlab/synthcity?style=social&color=white)](https://github.com/vanderschaarlab/synthcity/stargazers) | Synthetic data generation library for privacy and fairness |
+| [OpenDP](https://github.com/opendp/opendp) | [![Stars](https://img.shields.io/github/stars/opendp/opendp?style=social&color=white)](https://github.com/opendp/opendp/stargazers) | Modular statistical collection for differential privacy |
+| [ARX](https://github.com/arx-deidentifier/arx) | [![Stars](https://img.shields.io/github/stars/arx-deidentifier/arx?style=social&color=white)](https://github.com/arx-deidentifier/arx/stargazers) | Comprehensive biomedical data anonymization tool |
 
 
 
@@ -938,25 +839,15 @@ What happened in production?
 
 
 
-| Project                                                       | Role                         |
-
-| ------------------------------------------------------------- | ---------------------------- |
-
-| [OpenLineage](https://github.com/OpenLineage/OpenLineage)     | Open lineage standard        |
-
-| [Marquez](https://github.com/MarquezProject/marquez)          | Metadata / lineage service   |
-
-| [MLflow](https://github.com/mlflow/mlflow)                    | Experiment and model lineage |
-
-| [DVC](https://github.com/iterative/dvc)                       | Data and model versioning    |
-
-| [LakeFS](https://github.com/treeverse/lakeFS)                 | Data versioning              |
-
-| [DataHub](https://github.com/datahub-project/datahub)         | Data catalog and lineage     |
-
-| [OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Metadata and governance      |
-
-| [Amundsen](https://github.com/amundsen-io/amundsen)           | Data discovery and metadata  |
+| Project | Stars | Role |
+| --- | :---: | --- |
+| [DVC](https://github.com/iterative/dvc) | [![Stars](https://img.shields.io/github/stars/iterative/dvc?style=social&color=white)](https://github.com/iterative/dvc/stargazers) | Git-native data, ML pipeline, and model versioning |
+| [DataHub](https://github.com/datahub-project/datahub) | [![Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers) | Enterprise metadata catalog, lineage, and data governance |
+| [OpenMetadata](https://github.com/open-metadata/OpenMetadata) | [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers) | Centralized metadata platform for discovery and lineage |
+| [LakeFS](https://github.com/treeverse/lakeFS) | [![Stars](https://img.shields.io/github/stars/treeverse/lakeFS?style=social&color=white)](https://github.com/treeverse/lakeFS/stargazers) | Git-like version control for data lakes and object stores |
+| [Amundsen](https://github.com/amundsen-io/amundsen) | [![Stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white)](https://github.com/amundsen-io/amundsen/stargazers) | Metadata engine for data discovery and asset inspection |
+| [OpenLineage](https://github.com/OpenLineage/OpenLineage) | [![Stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers) | Open standard for metadata collection and operational lineage |
+| [Marquez](https://github.com/MarquezProject/marquez) | [![Stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers) | OpenLineage reference server and visualization backend |
 
 
 
@@ -972,25 +863,16 @@ A governance platform needs a central inventory of models and AI systems.
 
 
 
-| Project                                                   | Description                  |
-
-| --------------------------------------------------------- | ---------------------------- |
-
-| [MLflow Model Registry](https://github.com/mlflow/mlflow) | Model registry and lifecycle |
-
-| [Kubeflow](https://github.com/kubeflow/kubeflow)          | ML lifecycle                 |
-
-| [KServe](https://github.com/kserve/kserve)                | Model serving                |
-
-| [BentoML](https://github.com/bentoml/BentoML)             | Model serving                |
-
-| [Seldon Core](https://github.com/SeldonIO/seldon-core)    | ML deployment / monitoring   |
-
-| [Feast](https://github.com/feast-dev/feast)               | Feature store                |
-
-| [ModelDB](https://github.com/VertaAI/modeldb)             | Model metadata               |
-
-| [ClearML](https://github.com/clearml/clearml)             | ML lifecycle management      |
+| Project | Stars | Description |
+| --- | :---: | --- |
+| [MLflow Model Registry](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | Centralized model lifecycle management, approvals, and lineage |
+| [Kubeflow](https://github.com/kubeflow/kubeflow) | [![Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers) | Cloud-native ML orchestration platform on Kubernetes |
+| [BentoML](https://github.com/bentoml/BentoML) | [![Stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers) | Unified model serving, packaging, and deployment framework |
+| [ClearML](https://github.com/clearml/clearml) | [![Stars](https://img.shields.io/github/stars/clearml/clearml?style=social&color=white)](https://github.com/clearml/clearml/stargazers) | End-to-end MLOps suite for experiment tracking and governance |
+| [Feast](https://github.com/feast-dev/feast) | [![Stars](https://img.shields.io/github/stars/feast-dev/feast?style=social&color=white)](https://github.com/feast-dev/feast/stargazers) | Feature store for managing training and serving consistency |
+| [KServe](https://github.com/kserve/kserve) | [![Stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers) | Standardized serverless ML inference on Kubernetes |
+| [Seldon Core](https://github.com/SeldonIO/seldon-core) | [![Stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=social&color=white)](https://github.com/SeldonIO/seldon-core/stargazers) | Advanced ML deployment, monitoring, and traffic governance |
+| [ModelDB](https://github.com/VertaAI/modeldb) | [![Stars](https://img.shields.io/github/stars/VertaAI/modeldb?style=social&color=white)](https://github.com/VertaAI/modeldb/stargazers) | Open-source system for managing machine learning models |
 
 
 
@@ -1086,25 +968,16 @@ Governance therefore needs:
 
 
 
-| Project                                                           | Useful Capability        |
-
-| ----------------------------------------------------------------- | ------------------------ |
-
-| [Open Policy Agent](https://github.com/open-policy-agent/opa)     | Policy enforcement       |
-
-| [NeMo Guardrails](https://github.com/NVIDIA-NeMo/NeMo-Guardrails) | LLM/agent guardrails     |
-
-| [Guardrails AI](https://github.com/guardrails-ai/guardrails)      | Output validation        |
-
-| [LangGraph](https://github.com/langchain-ai/langgraph)            | Stateful agent workflows |
-
-| [AutoGen](https://github.com/microsoft/autogen)                   | Multi-agent systems      |
-
-| [CrewAI](https://github.com/crewAIInc/crewAI)                     | Agent orchestration      |
-
-| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)      | Agent evaluation         |
-
-| [PyRIT](https://github.com/Azure/PyRIT)                           | Agent/LLM red teaming    |
+| Project | Stars | Useful Capability |
+| --- | :---: | --- |
+| [AutoGen](https://github.com/microsoft/autogen) | [![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers) | Multi-agent framework with customizable conversation boundaries |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | [![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers) | Role-based autonomous agent orchestration & execution controls |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | [![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers) | Deterministic cyclic agent graphs, human-in-the-loop approvals |
+| [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Fine-grained tool invocation authorization & sandbox security |
+| [Guardrails AI](https://github.com/guardrails-ai/guardrails) | [![Stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers) | Action validation, schema verification, and hallucination checks |
+| [NeMo Guardrails](https://github.com/NVIDIA-NeMo/NeMo-Guardrails) | [![Stars](https://img.shields.io/github/stars/NVIDIA-NeMo/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA-NeMo/NeMo-Guardrails/stargazers) | Agent intent verification and off-topic prevention |
+| [PyRIT](https://github.com/Azure/PyRIT) | [![Stars](https://img.shields.io/github/stars/Azure/PyRIT?style=social&color=white)](https://github.com/Azure/PyRIT/stargazers) | Automated red teaming for agent loops and multi-step actions |
+| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) | [![Stars](https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social&color=white)](https://github.com/UKGovernmentBEIS/inspect_ai/stargazers) | Comprehensive benchmarking for autonomous agent safety |
 
 
 
@@ -3325,5 +3198,10 @@ consider giving this repository a ⭐ **Star** and contributing new projects.
 ---
 
 
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Responsible-AI-Governance&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Responsible-AI-Governance&type=date&legend=top-left)
+
+---
 
 **Last updated: September 2026**

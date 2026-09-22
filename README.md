@@ -904,6 +904,8 @@ Responsible AI governance needs standardized documentation.
 
 | [Hugging Face Dataset Cards](https://huggingface.co/docs/hub/datasets-cards) | Dataset transparency              |
 
+| [Screening Decisions Profile](https://github.com/Allowly-AI/screening-decisions-profile) | Signed employment-screening decision records and validators |
+
 
 
 ---

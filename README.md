@@ -931,7 +931,6 @@ Governance therefore needs:
 # 🧩 Commercial Platform → Open-Source Equivalent
 
 
-
 | Commercial Platform             | Open-Source Equivalent / Building Blocks                                   |
 | ------------------------------- | -------------------------------------------------------------------------- |
 | **Credo AI**                    | MLflow + Open Policy Agent + Fairlearn + Evidently + Giskard + OpenLineage |
@@ -955,7 +954,6 @@ Governance therefore needs:
 | **LLM Governance**              | Inspect AI + DeepEval + promptfoo + NeMo Guardrails + Evidently            |
 | **Agent Governance**            | OPA + NeMo Guardrails + OpenTelemetry + Inspect AI                         |
 | **AI Compliance Platform**      | AI Verify + OPA + MLflow + OpenLineage + Model Cards                       |
-
 
 
 ---

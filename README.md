@@ -984,49 +984,27 @@ Governance therefore needs:
 
 
 | Commercial Platform             | Open-Source Equivalent / Building Blocks                                   |
-
 | ------------------------------- | -------------------------------------------------------------------------- |
-
 | **Credo AI**                    | MLflow + Open Policy Agent + Fairlearn + Evidently + Giskard + OpenLineage |
-
 | **Holistic AI**                 | AI Verify + Fairlearn + Giskard + PyRIT + Evidently                        |
-
 | **Monitaur**                    | MLflow + OpenLineage + Model Cards + OPA + Evidently                       |
-
 | **Fairly AI / Asenion**         | AI Verify + Fairlearn + AIF360 + Giskard + OPA                             |
-
 | **Trustible**                   | MLflow + OpenMetadata + OPA + OpenLineage + AI Verify                      |
-
 | **Saidot**                      | OpenMetadata + MLflow + OPA + Model Cards + compliance knowledge base      |
-
 | **Fiddler AI**                  | Evidently + SHAP + Alibi Detect + Prometheus + Grafana                     |
-
 | **Arthur AI**                   | Evidently + Alibi Detect + SHAP + OpenTelemetry + OPA                      |
-
 | **CalypsoAI**                   | NeMo Guardrails + LLM Guard + Presidio + PyRIT + OPA                       |
-
 | **ModelOp**                     | MLflow + Kubeflow + OpenLineage + OPA + Evidently                          |
-
 | **IBM watsonx.governance**      | MLflow + Kubeflow + OpenLineage + Fairlearn + OPA                          |
-
 | **OneTrust AI Governance**      | OpenMetadata + OPA + AI Verify + Presidio + OpenLineage                    |
-
 | **ServiceNow AI Control Tower** | OpenMetadata + MLflow + OpenLineage + OPA                                  |
-
 | **Enterprise AI GRC**           | OpenMetadata + MLflow + AI Verify + OPA + Evidence Store                   |
-
 | **AI Model Governance**         | MLflow + Model Cards + OpenLineage + Evidently                             |
-
 | **AI Fairness Platform**        | Fairlearn + AIF360 + Aequitas + Responsible AI Toolbox                     |
-
 | **AI Observability Platform**   | Evidently + OpenTelemetry + Prometheus + Grafana                           |
-
 | **AI Security Governance**      | PyRIT + Garak + LLM Guard + Presidio + OPA                                 |
-
 | **LLM Governance**              | Inspect AI + DeepEval + promptfoo + NeMo Guardrails + Evidently            |
-
 | **Agent Governance**            | OPA + NeMo Guardrails + OpenTelemetry + Inspect AI                         |
-
 | **AI Compliance Platform**      | AI Verify + OPA + MLflow + OpenLineage + Model Cards                       |
 
 
@@ -1282,43 +1260,24 @@ An open-source governance system can map requirements to technical evidence.
 
 
 | Governance Domain | Example Control             | Open-Source Implementation  |
-
 | ----------------- | --------------------------- | --------------------------- |
-
 | AI Inventory      | Maintain AI system registry | MLflow + OpenMetadata       |
-
 | Ownership         | Assign system owner         | PostgreSQL / OpenMetadata   |
-
 | Risk              | Risk classification         | Custom policy engine        |
-
 | Fairness          | Test protected groups       | Fairlearn / AIF360          |
-
 | Explainability    | Explain decisions           | SHAP / LIME                 |
-
 | Privacy           | Detect PII                  | Presidio                    |
-
 | Security          | Red-team AI                 | PyRIT / Garak               |
-
 | LLM Safety        | Test harmful outputs        | NeMo Guardrails             |
-
 | Drift             | Detect distribution changes | Evidently / Alibi Detect    |
-
 | Data Lineage      | Track datasets              | OpenLineage                 |
-
 | Model Lineage     | Track model versions        | MLflow                      |
-
 | Documentation     | Model cards                 | Model Card Toolkit          |
-
 | Policy            | Machine-readable policies   | OPA                         |
-
 | Audit             | Evidence collection         | OpenTelemetry + database    |
-
 | Monitoring        | Production telemetry        | Prometheus + Grafana        |
-
 | Incident          | Track violations            | Git / database / workflow   |
-
 | Approval          | Human sign-off              | Workflow engine             |
-
 | Compliance        | Framework mapping           | AI Verify + custom mappings |
 
 
@@ -1332,61 +1291,33 @@ An open-source governance system can map requirements to technical evidence.
 
 
 | Capability              | Commercial AI Governance | Open-Source Stack    |
-
 | ----------------------- | ------------------------ | -------------------- |
-
 | AI Inventory            | ✅                        | ✅                    |
-
 | Model Registry          | ✅                        | ✅                    |
-
 | Risk Assessment         | ✅                        | ✅                    |
-
 | Policy Management       | ✅                        | ✅                    |
-
 | Compliance Mapping      | ✅                        | ⚠️ Build / integrate |
-
 | Audit Evidence          | ✅                        | ✅                    |
-
 | Fairness Testing        | ✅                        | ✅                    |
-
 | Explainability          | ✅                        | ✅                    |
-
 | Drift Monitoring        | ✅                        | ✅                    |
-
 | LLM Evaluation          | ✅                        | ✅                    |
-
 | Red Teaming             | ✅                        | ✅                    |
-
 | Guardrails              | ✅                        | ✅                    |
-
 | Privacy                 | ✅                        | ✅                    |
-
 | Lineage                 | ✅                        | ✅                    |
-
 | Vendor Risk             | ✅                        | ⚠️ Build / integrate |
-
 | AI Procurement          | ✅                        | ⚠️                   |
-
 | Regulatory Intelligence | ✅                        | ⚠️ Build / integrate |
-
 | Workflow                | ✅                        | Build / integrate    |
-
 | Dashboards              | ✅                        | Build / integrate    |
-
 | Self Hosting            | Sometimes                | ✅                    |
-
 | Air-Gapped              | Varies                   | ✅                    |
-
 | Source Code             | ❌                        | ✅                    |
-
 | Customization           | Medium                   | Very High            |
-
 | Vendor Lock-In          | Higher                   | Lower                |
-
 | Implementation Effort   | Lower                    | Higher               |
-
 | Compliance Expertise    | Often included           | Must provide         |
-
 | Infrastructure          | Managed                  | Self-managed         |
 
 
@@ -1400,37 +1331,21 @@ An open-source governance system can map requirements to technical evidence.
 
 
 | Project             | Governance | Fairness | Explainability | Monitoring | Evaluation | Security | Policy |
-
 | ------------------- | :--------: | :------: | :------------: | :--------: | :--------: | :------: | :----: |
-
 | AI Verify           |      ✅     |     ✅    |       ⚠️       |     ⚠️     |      ✅     |    ⚠️    |   ⚠️   |
-
 | Fairlearn           |      ❌     |     ✅    |        ❌       |      ❌     |     ⚠️     |     ❌    |    ❌   |
-
 | AIF360              |      ❌     |     ✅    |        ❌       |      ❌     |     ⚠️     |     ❌    |    ❌   |
-
 | SHAP                |      ❌     |     ❌    |        ✅       |      ❌     |      ❌     |     ❌    |    ❌   |
-
 | Evidently           |     ⚠️     |    ⚠️    |        ❌       |      ✅     |      ✅     |     ❌    |    ❌   |
-
 | Giskard             |     ⚠️     |     ✅    |       ⚠️       |     ⚠️     |      ✅     |     ✅    |    ❌   |
-
 | MLflow              |      ✅     |     ❌    |        ❌       |     ⚠️     |     ⚠️     |     ❌    |   ⚠️   |
-
 | OpenLineage         |     ⚠️     |     ❌    |        ❌       |      ❌     |      ❌     |     ❌    |    ❌   |
-
 | PyRIT               |      ❌     |     ❌    |        ❌       |      ❌     |      ✅     |     ✅    |    ❌   |
-
 | Garak               |      ❌     |     ❌    |        ❌       |      ❌     |      ✅     |     ✅    |    ❌   |
-
 | NeMo Guardrails     |     ⚠️     |    ⚠️    |        ❌       |     ⚠️     |      ✅     |     ✅    |    ✅   |
-
 | OPA                 |     ⚠️     |     ❌    |        ❌       |      ❌     |      ❌     |    ⚠️    |    ✅   |
-
 | Presidio            |      ❌     |     ❌    |        ❌       |      ❌     |      ❌     |     ✅    |   ⚠️   |
-
 | Inspect AI          |     ⚠️     |    ⚠️    |        ❌       |      ❌     |      ✅     |     ✅    |    ❌   |
-
 | Model Cards Toolkit |     ⚠️     |    ⚠️    |       ⚠️       |      ❌     |      ❌     |     ❌    |    ❌   |
 
 
@@ -1444,65 +1359,35 @@ An open-source governance system can map requirements to technical evidence.
 
 
 | Use Case                       | Recommended Starting Point                                         |
-
 | ------------------------------ | ------------------------------------------------------------------ |
-
 | General Responsible AI         | **AI Verify**                                                      |
-
 | AI governance testing          | **AI Verify**                                                      |
-
 | AI fairness                    | **Fairlearn**                                                      |
-
 | Comprehensive fairness toolkit | **AIF360**                                                         |
-
 | Bias auditing                  | **Aequitas**                                                       |
-
 | Explainability                 | **SHAP**                                                           |
-
 | Model interpretability         | **InterpretML**                                                    |
-
 | Production monitoring          | **Evidently**                                                      |
-
 | Data drift                     | **Evidently / Alibi Detect**                                       |
-
 | AI quality testing             | **Giskard**                                                        |
-
 | LLM evaluation                 | **Inspect AI / DeepEval**                                          |
-
 | RAG evaluation                 | **Ragas**                                                          |
-
 | LLM red teaming                | **PyRIT / Garak**                                                  |
-
 | LLM security                   | **Garak / LLM Guard**                                              |
-
 | Prompt testing                 | **promptfoo**                                                      |
-
 | LLM guardrails                 | **NeMo Guardrails**                                                |
-
 | Output validation              | **Guardrails AI**                                                  |
-
 | PII protection                 | **Presidio**                                                       |
-
 | Differential privacy           | **OpenDP / Opacus**                                                |
-
 | Model registry                 | **MLflow**                                                         |
-
 | ML lifecycle                   | **Kubeflow**                                                       |
-
 | Data lineage                   | **OpenLineage**                                                    |
-
 | Data governance                | **OpenMetadata / DataHub**                                         |
-
 | Policy-as-code                 | **Open Policy Agent**                                              |
-
 | Kubernetes policy              | **Kyverno / Gatekeeper**                                           |
-
 | Model documentation            | **Model Card Toolkit**                                             |
-
 | Agent evaluation               | **Inspect AI**                                                     |
-
 | Agent policy enforcement       | **OPA + Guardrails**                                               |
-
 | Full OSS governance stack      | **MLflow + AI Verify + Fairlearn + Evidently + OPA + OpenLineage** |
 
 

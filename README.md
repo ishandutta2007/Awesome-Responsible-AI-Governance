@@ -18,26 +18,15 @@
 
 Responsible AI Governance is the organizational and technical layer used to ensure that AI systems are:
 
-
-
 * **Safe**
-
 * **Fair**
-
 * **Transparent**
-
 * **Explainable**
-
 * **Accountable**
-
 * **Privacy-preserving**
-
 * **Secure**
-
 * **Auditable**
-
 * **Compliant**
-
 * **Human-centered**
 
 
@@ -120,62 +109,33 @@ Open-Source Responsible AI Governance
 
 ## 📑 Table of Contents
 
-
-
 * [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
-
 * [🌍 Open-Source](#-open-source)
-
 * [🏛️ Open-Source AI Governance Platforms](#️-open-source-ai-governance-platforms)
-
 * [📋 Open-Source AI Risk & Compliance](#-open-source-ai-risk--compliance)
-
 * [⚖️ Open-Source Fairness & Bias](#️-open-source-fairness--bias)
-
 * [🔍 Open-Source Explainability](#-open-source-explainability)
-
 * [📊 Open-Source Model Monitoring](#-open-source-model-monitoring)
-
 * [🧪 Open-Source AI Evaluation](#-open-source-ai-evaluation)
-
 * [🔴 Open-Source AI Red Teaming](#-open-source-ai-red-teaming)
-
 * [🛡️ Open-Source AI Guardrails](#️-open-source-ai-guardrails)
-
 * [🔐 Open-Source Privacy & PII Protection](#-open-source-privacy--pii-protection)
-
 * [🧬 Open-Source Data & Model Lineage](#-open-source-data--model-lineage)
-
 * [📦 Open-Source Model Governance & Registries](#-open-source-model-governance--registries)
-
 * [📑 Open-Source Documentation & Transparency](#-open-source-documentation--transparency)
-
 * [🤖 Open-Source Agent Governance](#-open-source-agent-governance)
-
 * [🧩 Commercial Platform → Open-Source Equivalent](#-commercial-platform--open-source-equivalent)
-
 * [🏗️ Responsible AI Governance Architecture](#️-responsible-ai-governance-architecture)
-
 * [🔄 Open-Source AI Governance Architecture](#-open-source-ai-governance-architecture)
-
 * [⚖️ Commercial vs Open-Source](#️-commercial-vs-open-source)
-
 * [🚀 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
-
 * [📊 Responsible AI Technology Comparison](#-responsible-ai-technology-comparison)
-
 * [🎯 Recommended Projects by Use Case](#-recommended-projects-by-use-case)
-
 * [🏢 Building a Credo AI Alternative](#-building-a-credo-ai-alternative)
-
 * [🧠 Building an Open-Source AI Governance Platform](#-building-an-open-source-ai-governance-platform)
-
 * [🌐 Open-Source Responsible AI Landscape](#-open-source-responsible-ai-landscape)
-
 * [🧠 Why Open-Source Responsible AI Matters](#-why-open-source-responsible-ai-matters)
-
 * [🤝 Contributing](#-contributing)
-
 * [⚠️ Disclaimer](#️-disclaimer)
 
 
@@ -938,26 +898,15 @@ Agentic AI introduces a new governance problem because agents can **take actions
 
 Governance therefore needs:
 
-
-
 * Agent inventory
-
 * Identity
-
 * Tool permissions
-
 * Data permissions
-
 * Action policies
-
 * Human approval
-
 * Audit logs
-
 * Rate limits
-
 * Kill switches
-
 * Runtime monitoring
 
 
@@ -2282,18 +2231,11 @@ Evidently
 
 Best for:
 
-
-
 * Hiring
-
 * Lending
-
 * Insurance
-
 * Healthcare
-
 * Risk scoring
-
 * High-impact automated decisions
 
 
@@ -2344,16 +2286,10 @@ Evidently
 
 Best for:
 
-
-
 * Enterprise LLMs
-
 * RAG
-
 * Chatbots
-
 * AI assistants
-
 * GenAI applications
 
 
@@ -2444,16 +2380,10 @@ OPA
 
 Best for:
 
-
-
 * Banks
-
 * Insurance
-
 * Healthcare
-
 * Large ML teams
-
 * Model-risk management
 
 
@@ -2469,63 +2399,34 @@ Best for:
 ```text
 
                 Governance UI
-
                      │
-
                   FastAPI
-
                      │
-
              ┌───────┴────────┐
-
              ▼                ▼
-
         AI Inventory       Risk Engine
-
          MLflow            OPA
-
              │                │
-
              └───────┬────────┘
-
                      ▼
-
                AI Assessments
-
                      │
-
       ┌──────────────┼──────────────┐
-
       ▼              ▼              ▼
-
    Fairness      Explainability   Security
-
   Fairlearn         SHAP          PyRIT
-
   AIF360          LIME            Garak
-
       │              │              │
-
       └──────────────┼──────────────┘
-
                      ▼
-
                   Evidence
-
                      │
-
           ┌──────────┼──────────┐
-
           ▼          ▼          ▼
-
       Evidently   OpenLineage  MLflow
-
           │          │          │
-
           └──────────┼──────────┘
-
                      ▼
-
                  Audit DB
 
 ```
@@ -2543,21 +2444,13 @@ Best for:
 ```text
 
 Credo AI
-
     │
-
     ├── AI Registry       → MLflow / OpenMetadata
-
     ├── Risk              → OPA + custom risk engine
-
     ├── Policy            → OPA
-
     ├── Controls          → Fairlearn / Giskard / PyRIT
-
     ├── Monitoring        → Evidently
-
     ├── Evidence         → OpenTelemetry
-
     └── Lineage          → OpenLineage
 
 
@@ -2565,19 +2458,12 @@ Credo AI
 
 
 Holistic AI
-
     │
-
     ├── AI Discovery      → OpenMetadata
-
     ├── Bias Testing      → Fairlearn / AIF360
-
     ├── Red Teaming       → PyRIT / Garak
-
     ├── Monitoring        → Evidently
-
     ├── Guardrails        → NeMo Guardrails
-
     └── Policy            → OPA
 
 
@@ -2585,17 +2471,11 @@ Holistic AI
 
 
 Fiddler / Arthur
-
     │
-
     ├── Monitoring        → Evidently
-
     ├── Drift             → Evidently / Alibi Detect
-
     ├── Explainability    → SHAP
-
     ├── Evaluation        → DeepEval / Inspect
-
     └── Telemetry         → OpenTelemetry
 
 
@@ -2603,19 +2483,12 @@ Fiddler / Arthur
 
 
 ModelOp / Monitaur
-
     │
-
     ├── Model Registry    → MLflow
-
     ├── Lifecycle         → Kubeflow
-
     ├── Lineage           → OpenLineage
-
     ├── Monitoring        → Evidently
-
     ├── Risk              → OPA
-
     └── Documentation     → Model Cards
 
 ```
@@ -2641,47 +2514,26 @@ Organizations should be able to answer:
 ```text
 
 What AI systems do we operate?
-
              │
-
              ▼
-
 Who owns them?
-
              │
-
              ▼
-
 What data do they use?
-
              │
-
              ▼
-
 What risks do they create?
-
              │
-
              ▼
-
 What controls mitigate those risks?
-
              │
-
              ▼
-
 Were those controls actually tested?
-
              │
-
              ▼
-
 What happened in production?
-
              │
-
              ▼
-
 Can we prove it to an auditor?
 
 ```
@@ -2690,28 +2542,16 @@ Can we prove it to an auditor?
 
 Open-source software provides several important advantages:
 
-
-
 * **Transparency**
-
 * **Inspectability**
-
 * **Self-hosting**
-
 * **Air-gapped deployment**
-
 * **Data sovereignty**
-
 * **Custom policies**
-
 * **Custom evaluation**
-
 * **Vendor independence**
-
 * **Reproducibility**
-
 * **Research flexibility**
-
 * **Integration freedom**
 
 
@@ -2722,26 +2562,15 @@ But open-source tooling does **not automatically create Responsible AI**.
 
 The organization still needs:
 
-
-
 * Governance policies
-
 * Clearly defined ownership
-
 * Human oversight
-
 * Risk appetite
-
 * Regulatory interpretation
-
 * Model validation
-
 * Documentation
-
 * Incident processes
-
 * Accountability
-
 * Appropriate legal and compliance expertise
 
 
@@ -2761,65 +2590,34 @@ If you want to build an open-source alternative to the **Responsible AI Governan
 ```text
 
                     TOP OSS BUILDING BLOCKS
-
-
-
                          AI Verify
-
                             │
-
                             ▼
-
                          MLflow
-
                             │
-
              ┌──────────────┼──────────────┐
-
              ▼              ▼              ▼
-
          Fairlearn        SHAP          Evidently
-
              │              │              │
-
              ▼              ▼              ▼
-
           AIF360        InterpretML    Alibi Detect
-
              │              │              │
-
              └──────────────┼──────────────┘
-
                             ▼
-
                            OPA
-
                             │
-
               ┌─────────────┼─────────────┐
-
               ▼             ▼             ▼
-
             PyRIT         Garak       Presidio
-
               │             │             │
-
               └─────────────┼─────────────┘
-
                             ▼
-
                     NeMo Guardrails
-
                             │
-
                             ▼
-
                        OpenLineage
-
                             │
-
                             ▼
-
                       Audit Evidence
 
 ```
@@ -2874,78 +2672,43 @@ Contributions are welcome!
 
 Please consider adding:
 
-
-
 * AI governance platforms
-
 * Responsible AI frameworks
-
 * AI GRC software
-
 * Model governance systems
-
 * Model registries
-
 * AI risk assessment tools
-
 * Fairness libraries
-
 * Bias auditing tools
-
 * Explainability frameworks
-
 * Model monitoring systems
-
 * LLM evaluation frameworks
-
 * AI red-teaming tools
-
 * AI security tools
-
 * LLM guardrails
-
 * Privacy-preserving AI
-
 * Differential privacy
-
 * Data lineage
-
 * Model lineage
-
 * AI documentation frameworks
-
 * Model cards
-
 * Dataset cards
-
 * Policy-as-code frameworks
-
 * Agent governance tools
-
 * AI compliance tools
-
 * Audit frameworks
-
 * Open-source AI standards
 
 
 
 When adding a project, please distinguish between:
 
-
-
 * **Fully open-source**
-
 * **Open-core**
-
 * **Source available**
-
 * **Commercial platform with an OSS component**
-
 * **Open-source library**
-
 * **Research project**
-
 * **Hosted SaaS**
 
 
@@ -2968,34 +2731,19 @@ This repository is an independent technical curation and is **not affiliated wit
 
 Responsible AI governance is a broad discipline spanning:
 
-
-
 * AI governance
-
 * Model risk management
-
 * AI safety
-
 * AI security
-
 * Privacy
-
 * Fairness
-
 * Explainability
-
 * Transparency
-
 * Compliance
-
 * Data governance
-
 * Model governance
-
 * Human oversight
-
 * AI monitoring
-
 * AI assurance
 
 
@@ -3022,32 +2770,18 @@ Also note that **open-source status can differ between source code, model weight
 
 If you are interested in:
 
-
-
 * Responsible AI
-
 * AI Governance
-
 * AI GRC
-
 * AI Risk Management
-
 * Model Governance
-
 * AI Safety
-
 * AI Security
-
 * AI Compliance
-
 * Fairness
-
 * Explainable AI
-
 * LLM Governance
-
 * Agent Governance
-
 * Open-Source AI
 
 
@@ -3064,5 +2798,4 @@ consider giving this repository a ⭐ **Star** and contributing new projects.
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Responsible-AI-Governance&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Responsible-AI-Governance&type=date&legend=top-left)
 
 ---
-
 **Last updated: September 2026**

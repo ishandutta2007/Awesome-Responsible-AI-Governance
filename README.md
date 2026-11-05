@@ -201,31 +201,18 @@ The open-source Responsible AI ecosystem is much more **modular** than the comme
 ```text
 
                     RESPONSIBLE AI
-
                           │
-
        ┌──────────────────┼──────────────────┐
-
        │                  │                  │
-
        ▼                  ▼                  ▼
-
     Governance          Technical          Runtime
-
        │                Assurance           Controls
-
        │                  │                  │
-
        ▼                  ▼                  ▼
-
     Inventory          Fairness          Guardrails
-
     Risk               Explainability    Privacy
-
     Policies           Evaluation        Security
-
     Compliance         Monitoring        Policy
-
     Evidence           Red Teaming       Enforcement
 
 ```
@@ -284,47 +271,26 @@ Responsible AI governance requires converting policies and regulations into oper
 ```text
 
 Regulation
-
     │
-
     ▼
-
 Governance Framework
-
     │
-
     ▼
-
 Policy
-
     │
-
     ▼
-
 Risk
-
     │
-
     ▼
-
 Control
-
     │
-
     ▼
-
 Technical Test
-
     │
-
     ▼
-
 Evidence
-
     │
-
     ▼
-
 Audit
 
 ```
@@ -361,41 +327,23 @@ Fairness is one of the most mature areas of open-source Responsible AI tooling.
 ```text
 
 Dataset
-
    │
-
    ▼
-
 Protected Attributes
-
    │
-
    ▼
-
 Model Predictions
-
    │
-
    ▼
-
 Fairness Metrics
-
    │
-
    ├── Demographic Parity
-
    ├── Equal Opportunity
-
    ├── Equalized Odds
-
    ├── Disparate Impact
-
    └── Group Performance
-
    │
-
    ▼
-
 Mitigation
 
 ```
@@ -433,29 +381,17 @@ Explainability helps organizations understand **why a model produced a particula
 ```text
 
 Model
-
   │
-
   ▼
-
 Prediction
-
   │
-
   ▼
-
 Explanation Engine
-
   │
-
   ├── Feature Importance
-
   ├── Local Explanation
-
   ├── Global Explanation
-
   ├── Counterfactuals
-
   └── Attribution
 
 ```
@@ -488,55 +424,30 @@ Governance cannot stop when a model reaches production.
 
 
 ```text
-
 Development
-
      │
-
      ▼
-
 Validation
-
      │
-
      ▼
-
 Deployment
-
      │
-
      ▼
-
 Production
-
      │
-
      ▼
-
 Monitoring
-
      │
-
  ┌───┼────────────┐
-
  ▼   ▼            ▼
-
 Drift Bias      Quality
-
  │   │            │
-
  └───┼────────────┘
-
      ▼
-
 Risk Alert
-
      │
-
      ▼
-
 Governance Review
-
 ```
 
 
@@ -600,35 +511,20 @@ Responsible AI governance increasingly requires adversarial testing.
 ```text
 
                   AI SYSTEM
-
                       │
-
           ┌───────────┼───────────┐
-
           ▼           ▼           ▼
-
        Jailbreak    Prompt      Data
-
         Tests       Injection   Leakage
-
           │           │           │
-
           └───────────┼───────────┘
-
                       ▼
-
                  Red Teaming
-
                       │
-
                       ▼
-
                 Risk Findings
-
                       │
-
                       ▼
-
                  Remediation
 
 ```
@@ -664,49 +560,27 @@ Governance becomes substantially more powerful when policies can be enforced at 
 ```text
 
 User
-
  │
-
  ▼
-
 AI Gateway
-
  │
-
  ▼
-
 Policy Engine
-
  │
-
  ├── Content Policy
-
  ├── PII Policy
-
  ├── Safety Policy
-
  ├── Access Policy
-
  ├── Tool Policy
-
  └── Compliance Policy
-
  │
-
  ▼
-
 Model / Agent
-
  │
-
  ▼
-
 Output Guardrail
-
  │
-
  ▼
-
 User
 
 ```
@@ -764,35 +638,20 @@ Governance requires knowing:
 ```text
 
 Where did this model come from?
-
              │
-
              ▼
-
 What data trained it?
-
              │
-
              ▼
-
 Which version was deployed?
-
              │
-
              ▼
-
 Which application uses it?
-
              │
-
              ▼
-
 Who approved it?
-
              │
-
              ▼
-
 What happened in production?
 
 ```
@@ -810,7 +669,6 @@ What happened in production?
 | [Marquez](https://github.com/MarquezProject/marquez) | [![Stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers) | OpenLineage reference server and visualization backend |
 
 
-
 ---
 
 
@@ -818,9 +676,7 @@ What happened in production?
 # 📦 Open-Source Model Governance & Registries
 
 
-
 A governance platform needs a central inventory of models and AI systems.
-
 
 
 | Project | Stars | Description |
@@ -835,17 +691,13 @@ A governance platform needs a central inventory of models and AI systems.
 | [ModelDB](https://github.com/VertaAI/modeldb) | [![Stars](https://img.shields.io/github/stars/VertaAI/modeldb?style=social&color=white)](https://github.com/VertaAI/modeldb/stargazers) | Open-source system for managing machine learning models |
 
 
-
 ---
-
 
 
 # 📑 Open-Source Documentation & Transparency
 
 
-
 Responsible AI governance needs standardized documentation.
-
 
 
 | Project / Standard                                                           | Purpose                           |
@@ -857,8 +709,6 @@ Responsible AI governance needs standardized documentation.
 | [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards)      | Model transparency                |
 | [Hugging Face Dataset Cards](https://huggingface.co/docs/hub/datasets-cards) | Dataset transparency              |
 | [Screening Decisions Profile](https://github.com/Allowly-AI/screening-decisions-profile) | Signed employment-screening decision records and validators |
-
-
 
 ---
 
@@ -875,21 +725,13 @@ Agentic AI introduces a new governance problem because agents can **take actions
 ```text
 
                     AI AGENT
-
                        │
-
               ┌────────┼────────┐
-
               ▼        ▼        ▼
-
             Tools     APIs    Databases
-
               │        │        │
-
               └────────┼────────┘
-
                        ▼
-
                  External Action
 
 ```
@@ -972,56 +814,18 @@ A commercial governance platform can conceptually be decomposed into:
 
 flowchart TD
 
-
-
     A[AI Systems] --> B[AI Discovery]
-
-
-
     B --> C[AI Inventory]
-
-
-
     C --> D[Risk Assessment]
-
-
-
     D --> E[Policy Engine]
-
-
-
     E --> F[Controls]
-
-
-
     F --> G[Technical Evaluations]
-
-
-
     G --> H[Monitoring]
-
-
-
     H --> I[Evidence]
-
-
-
     I --> J[Compliance]
-
-
-
     J --> K[Audit]
-
-
-
     H --> L[Incident Management]
-
-
-
     L --> M[Remediation]
-
-
-
     M --> H
 
 ```
@@ -1047,75 +851,40 @@ A practical open-source architecture can be assembled as:
                              │
 
               ┌──────────────┼──────────────┐
-
               ▼              ▼              ▼
-
             Models         Agents         Vendors
-
               │              │              │
-
               └──────────────┼──────────────┘
-
                              ▼
-
                        AI INVENTORY
-
                              │
-
                          MLflow / DB
-
                              │
-
                              ▼
-
                        RISK ENGINE
-
                              │
-
                 ┌────────────┼────────────┐
-
                 ▼            ▼            ▼
-
             Fairness    Security      Privacy
-
                 │            │            │
-
             Fairlearn      PyRIT       Presidio
-
             AIF360         Garak       OpenDP
-
                 │            │            │
-
                 └────────────┼────────────┘
-
                              ▼
-
                        POLICY ENGINE
-
                              │
-
                        Open Policy Agent
-
                              │
-
                              ▼
-
                          EVIDENCE
-
                              │
-
               ┌──────────────┼──────────────┐
-
               ▼              ▼              ▼
-
           OpenLineage      MLflow       Evidently
-
               │              │              │
-
               └──────────────┼──────────────┘
-
                              ▼
-
                         AUDIT / GRC
 
 ```
@@ -1134,60 +903,19 @@ A practical open-source architecture can be assembled as:
 
 flowchart LR
 
-
-
     A[Idea] --> B[AI Intake]
-
-
-
     B --> C[Risk Classification]
-
-
-
     C --> D[Data Assessment]
-
-
-
     D --> E[Model Development]
-
-
-
     E --> F[Fairness Testing]
-
-
-
     F --> G[Explainability]
-
-
-
     G --> H[Security Testing]
-
-
-
     H --> I[Approval]
-
-
-
     I --> J[Deployment]
-
-
-
     J --> K[Production Monitoring]
-
-
-
     K --> L[Incident Management]
-
-
-
     L --> M[Remediation]
-
-
-
     M --> K
-
-
-
     K --> N[Retirement]
 
 ```
@@ -1234,7 +962,6 @@ An open-source governance system can map requirements to technical evidence.
 
 
 # ⚖️ Commercial vs Open-Source
-
 
 
 | Capability              | Commercial AI Governance | Open-Source Stack    |
@@ -1354,87 +1081,46 @@ A Credo AI-like platform can be decomposed into several open-source layers.
 ```text
 
                          ENTERPRISE
-
                              │
-
                              ▼
-
                        AI DISCOVERY
-
                              │
-
                              ▼
-
                        AI INVENTORY
-
                              │
-
                              ▼
-
                        RISK ENGINE
-
                              │
-
             ┌────────────────┼────────────────┐
-
             ▼                ▼                ▼
-
          Models           Agents           Vendors
-
             │                │                │
-
             └────────────────┼────────────────┘
-
                              ▼
-
                        POLICY ENGINE
-
                              │
-
                              ▼
-
                     TECHNICAL CONTROLS
-
                              │
-
           ┌──────────────────┼──────────────────┐
-
           ▼                  ▼                  ▼
-
       Fairness          Security            Privacy
-
       Fairlearn         PyRIT               Presidio
-
       AIF360            Garak               OpenDP
-
           │                  │                  │
-
           └──────────────────┼──────────────────┘
-
                              ▼
-
                          EVIDENCE
-
                              │
-
           ┌──────────────────┼──────────────────┐
-
           ▼                  ▼                  ▼
-
        MLflow           OpenLineage         Evidently
-
           │                  │                  │
-
           └──────────────────┼──────────────────┘
-
                              ▼
-
                        GOVERNANCE DB
-
                              │
-
                              ▼
-
                       AUDIT DASHBOARD
 
 ```
@@ -1448,97 +1134,51 @@ A Credo AI-like platform can be decomposed into several open-source layers.
 ```text
 
 Frontend
-
     → React / Next.js
 
-
-
 API
-
     → FastAPI
 
-
-
 Database
-
     → PostgreSQL
 
-
-
 AI Registry
-
     → MLflow + PostgreSQL
 
-
-
 Data Catalog
-
     → OpenMetadata
 
-
-
 Lineage
-
     → OpenLineage
 
-
-
 Policy Engine
-
     → Open Policy Agent
 
-
-
 Fairness
-
     → Fairlearn + AIF360
 
-
-
 Explainability
-
     → SHAP + InterpretML
 
-
-
 Monitoring
-
     → Evidently
 
-
-
 Security Testing
-
     → PyRIT + Garak
 
-
-
 LLM Evaluation
-
     → Inspect AI + DeepEval
 
-
-
 Privacy
-
     → Presidio
 
-
-
 Evidence
-
     → PostgreSQL + Object Storage
 
-
-
 Authentication
-
     → Keycloak
 
-
-
 Observability
-
     → OpenTelemetry + Prometheus + Grafana
 
 ```
@@ -1568,49 +1208,27 @@ A full open-source governance platform can be organized around an **AI Governanc
                                   │
 
             ┌─────────────────────┼─────────────────────┐
-
             │                     │                     │
-
             ▼                     ▼                     ▼
-
           MODEL                DATASET                AGENT
-
             │                     │                     │
-
             ▼                     ▼                     ▼
-
           RISK                 PURPOSE                TOOLS
-
             │                     │                     │
-
             ▼                     ▼                     ▼
-
          CONTROL               POLICY                 ACTION
-
             │                     │                     │
-
             └─────────────────────┼─────────────────────┘
-
                                   ▼
-
                                EVIDENCE
-
                                   │
-
                                   ▼
-
                               ASSESSMENT
-
                                   │
-
                                   ▼
-
                               DECISION
-
                                   │
-
                                   ▼
-
                                AUDIT
 
 ```
@@ -1636,23 +1254,14 @@ Traditional governance:
 ```text
 
 Annual Assessment
-
        │
-
        ▼
-
 Approval
-
        │
-
        ▼
-
 Deployment
-
        │
-
        ▼
-
 Next Annual Review
 
 ```
@@ -1666,71 +1275,38 @@ Modern AI governance:
 ```text
 
                  ┌─────────────────────┐
-
                  │    AI System        │
-
                  └──────────┬──────────┘
-
                             ▼
-
                         Discovery
-
                             │
-
                             ▼
-
                          Risk
-
                             │
-
                             ▼
-
                         Controls
-
                             │
-
                             ▼
-
                         Testing
-
                             │
-
                             ▼
-
                         Approval
-
                             │
-
                             ▼
-
                        Deployment
-
                             │
-
                             ▼
-
                        Monitoring
-
                             │
-
                             ▼
-
                          Alerts
-
                             │
-
                             ▼
-
                        Reassessment
-
                             │
-
                             └──────────────┐
-
                                            │
-
                                            ▼
-
                                       Continuous Loop
 
 ```
@@ -1756,37 +1332,21 @@ A useful way to think about Responsible AI Governance is as a **control plane si
 ```text
 
 ┌─────────────────────────────────────────────────────┐
-
-│              AI GOVERNANCE CONTROL PLANE             │
-
+│              AI GOVERNANCE CONTROL PLANE            │
 │                                                     │
-
-│  Inventory • Risk • Policy • Compliance • Evidence │
-
-│  Approvals • Ownership • Controls • Audit          │
-
+│  Inventory • Risk • Policy • Compliance • Evidence  │
+│  Approvals • Ownership • Controls • Audit           │
 └────────────────────────┬────────────────────────────┘
-
                          │
-
         ┌────────────────┼─────────────────┐
-
         ▼                ▼                 ▼
-
    ML Models          LLM Apps           Agents
-
         │                │                 │
-
         ▼                ▼                 ▼
-
    ML Pipelines       RAG Systems       Tool Calls
-
         │                │                 │
-
         └────────────────┼─────────────────┘
-
                          ▼
-
                     Production
 
 ```
@@ -1808,37 +1368,21 @@ Responsible AI Governance should not be treated as completely separate from AI s
 ```text
 
                     AI GOVERNANCE
-
                           │
-
           ┌───────────────┼───────────────┐
-
           ▼               ▼               ▼
-
        Safety          Security         Privacy
-
           │               │               │
-
           ▼               ▼               ▼
-
       Bias Tests      Red Teaming       PII
-
       Toxicity        Prompt Injection  Leakage
-
       Hallucination   Jailbreaks        Data Use
-
           │               │               │
-
           └───────────────┼───────────────┘
-
                           ▼
-
                        Evidence
-
                           │
-
                           ▼
-
                          Audit
 
 ```
@@ -1852,43 +1396,24 @@ Useful open-source components:
 ```text
 
 Safety
-
 → NeMo Guardrails
 
-
-
 Security
-
 → PyRIT + Garak
 
-
-
 Privacy
-
 → Presidio + OpenDP
 
-
-
 Fairness
-
 → Fairlearn + AIF360
 
-
-
 Monitoring
-
 → Evidently
 
-
-
 Policy
-
 → OPA
 
-
-
 Evidence
-
 → OpenTelemetry + OpenLineage
 
 ```
@@ -1906,145 +1431,75 @@ Evidence
 ```mermaid
 
 mindmap
-
   root((Responsible AI))
-
     Governance
-
       AI Verify
-
       Giskard
-
       MLflow
-
       NIST Dioptra
-
     Risk
-
       AI Verify
-
       Giskard
-
       NIST Dioptra
-
       OPA
-
     Fairness
-
       Fairlearn
-
       AIF360
-
       Aequitas
-
       Fairness Indicators
-
     Explainability
-
       SHAP
-
       LIME
-
       InterpretML
-
       Captum
-
       Alibi
-
     Monitoring
-
       Evidently
-
       NannyML
-
       Alibi Detect
-
       whylogs
-
       Deepchecks
-
     Evaluation
-
       Inspect AI
-
       DeepEval
-
       Ragas
-
       promptfoo
-
       lm-evaluation-harness
-
     Security
-
       PyRIT
-
       Garak
-
       ART
-
       TextAttack
-
     Guardrails
-
       NeMo Guardrails
-
       Guardrails AI
-
       LLM Guard
-
       OPA
-
     Privacy
-
       Presidio
-
       OpenDP
-
       Opacus
-
       ARX
-
       SDV
-
     Lineage
-
       OpenLineage
-
       Marquez
-
       MLflow
-
       DataHub
-
       OpenMetadata
-
     Documentation
-
       Model Cards Toolkit
-
       Dataset Cards
-
       Datasheets
-
     ModelOps
-
       MLflow
-
       Kubeflow
-
       KServe
-
       Seldon Core
-
     Agents
-
       Inspect AI
-
       OPA
-
       NeMo Guardrails
-
       PyRIT
 
 ```
@@ -2066,77 +1521,41 @@ A complete open-source stack can be assembled as:
 ```text
 
 ┌──────────────────────────────────────────────────┐
-
 │                 GOVERNANCE UI                    │
-
 │             React / Next.js                      │
-
 ├──────────────────────────────────────────────────┤
-
 │              GOVERNANCE API                      │
-
-│                 FastAPI                           │
-
+│                 FastAPI                          │
 ├──────────────────────────────────────────────────┤
-
 │              AI INVENTORY                        │
-
 │          MLflow / OpenMetadata                   │
-
 ├──────────────────────────────────────────────────┤
-
 │               RISK ENGINE                        │
-
 │          Custom Rules + OPA                      │
-
 ├──────────────────────────────────────────────────┤
-
 │          RESPONSIBLE AI TESTING                  │
-
 │ Fairlearn • AIF360 • SHAP • Giskard              │
-
 ├──────────────────────────────────────────────────┤
-
-│             LLM EVALUATION                      │
-
-│ Inspect • DeepEval • Ragas • promptfoo            │
-
+│             LLM EVALUATION                       │
+│ Inspect • DeepEval • Ragas • promptfoo           │
 ├──────────────────────────────────────────────────┤
-
 │              SECURITY                            │
-
 │       PyRIT • Garak • ART                        │
-
 ├──────────────────────────────────────────────────┤
-
 │              GUARDRAILS                          │
-
 │ NeMo Guardrails • Guardrails AI • LLM Guard      │
-
 ├──────────────────────────────────────────────────┤
-
 │               PRIVACY                            │
-
 │       Presidio • OpenDP • Opacus                 │
-
 ├──────────────────────────────────────────────────┤
-
 │              MONITORING                          │
-
-│     Evidently • Prometheus • Grafana              │
-
+│     Evidently • Prometheus • Grafana             │
 ├──────────────────────────────────────────────────┤
-
 │               LINEAGE                            │
-
-│     OpenLineage • DataHub • OpenMetadata          │
-
+│     OpenLineage • DataHub • OpenMetadata         │
 ├──────────────────────────────────────────────────┤
-
 │                DATA                              │
-
-│             PostgreSQL                            │
-
+│             PostgreSQL                           │
 └──────────────────────────────────────────────────┘
 
 ```
@@ -2158,29 +1577,17 @@ A complete open-source stack can be assembled as:
 ```text
 
 MLflow
-
 +
-
 AI Verify
-
 +
-
 Fairlearn
-
 +
-
 Evidently
-
 +
-
 Open Policy Agent
-
 +
-
 OpenLineage
-
 +
-
 PostgreSQL
 
 ```
@@ -2202,25 +1609,15 @@ Best starting point for organizations that need a broad governance foundation.
 ```text
 
 Fairlearn
-
 +
-
 AIF360
-
 +
-
 Aequitas
-
 +
-
 SHAP
-
 +
-
 MLflow
-
 +
-
 Evidently
 
 ```
@@ -2249,33 +1646,19 @@ Best for:
 ```text
 
 MLflow
-
 +
-
 Inspect AI
-
 +
-
 DeepEval
-
 +
-
 promptfoo
-
 +
-
 NeMo Guardrails
-
 +
-
 Garak
-
 +
-
 Presidio
-
 +
-
 Evidently
 
 ```
@@ -2303,29 +1686,17 @@ Best for:
 ```text
 
 PyRIT
-
 +
-
 Garak
-
 +
-
 LLM Guard
-
 +
-
 Presidio
-
 +
-
 OPA
-
 +
-
 NeMo Guardrails
-
 +
-
 OpenTelemetry
 
 ```
@@ -2347,29 +1718,17 @@ Best for organizations where Responsible AI overlaps heavily with AI security.
 ```text
 
 MLflow
-
 +
-
 Kubeflow
-
 +
-
 OpenLineage
-
 +
-
 Evidently
-
 +
-
 SHAP
-
 +
-
 Fairlearn
-
 +
-
 OPA
 
 ```

@@ -235,7 +235,7 @@ There are relatively few genuinely open-source projects that attempt to provide 
 
 
 
-| Project | Stars | Focus | Status |
+| Project | GitHub_Stars | Focus | Status |
 | --- | :---: | --- | :---: |
 | [MLflow](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | ML lifecycle and model governance | 🟢 Open Source |
 | [Kubeflow](https://github.com/kubeflow/kubeflow) | [![Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers) | ML lifecycle infrastructure | 🟢 Open Source |
@@ -297,7 +297,7 @@ Audit
 
 
 
-| Project | Stars | Role |
+| Project | GitHub_Stars | Role |
 | --- | :---: | --- |
 | [MLflow](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | Model lifecycle, metadata, and governance |
 | [Kubeflow](https://github.com/kubeflow/kubeflow) | [![Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers) | ML lifecycle orchestration and pipelines |
@@ -350,7 +350,7 @@ Mitigation
 
 
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | --- | :---: | --- |
 | [AI Fairness 360](https://github.com/Trusted-AI/AIF360) | [![Stars](https://img.shields.io/github/stars/Trusted-AI/AIF360?style=social&color=white)](https://github.com/Trusted-AI/AIF360/stargazers) | Comprehensive fairness metrics & mitigation toolkit |
 | [Fairlearn](https://github.com/fairlearn/fairlearn) | [![Stars](https://img.shields.io/github/stars/fairlearn/fairlearn?style=social&color=white)](https://github.com/fairlearn/fairlearn/stargazers) | Fairness assessment and disparity mitigation |
@@ -398,7 +398,7 @@ Explanation Engine
 
 
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | --- | :---: | --- |
 | [SHAP](https://github.com/shap/shap) | [![Stars](https://img.shields.io/github/stars/shap/shap?style=social&color=white)](https://github.com/shap/shap/stargazers) | Game-theoretic Shapley-based explanations |
 | [LIME](https://github.com/marcotcr/lime) | [![Stars](https://img.shields.io/github/stars/marcotcr/lime?style=social&color=white)](https://github.com/marcotcr/lime/stargazers) | Local Interpretable Model-agnostic Explanations |
@@ -452,7 +452,7 @@ Governance Review
 
 
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | --- | :---: | --- |
 | [Grafana](https://github.com/grafana/grafana) | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | Monitoring dashboards, observability UI, and alerts |
 | [Prometheus](https://github.com/prometheus/prometheus) | [![Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers) | Time-series metrics infrastructure and scraper |
@@ -481,7 +481,7 @@ Evaluation is increasingly becoming one of the most important technical componen
 
 
 
-| Project | Stars | Focus |
+| Project | GitHub_Stars | Focus |
 | --- | :---: | --- |
 | [OpenAI Evals](https://github.com/openai/evals) | [![Stars](https://img.shields.io/github/stars/openai/evals?style=social&color=white)](https://github.com/openai/evals/stargazers) | Model evaluation framework and benchmark suites |
 | [Ragas](https://github.com/explodinggradients/ragas) | [![Stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers) | RAG pipeline evaluation & metric generation |
@@ -531,7 +531,7 @@ Responsible AI governance increasingly requires adversarial testing.
 
 
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | --- | :---: | --- |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | [![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers) | Automated LLM red teaming, jailbreak testing & security |
 | [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | [![Stars](https://img.shields.io/github/stars/Trusted-AI/adversarial-robustness-toolbox?style=social&color=white)](https://github.com/Trusted-AI/adversarial-robustness-toolbox/stargazers) | Comprehensive library for adversarial ML attacks & defenses |
@@ -587,7 +587,7 @@ User
 
 
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | --- | :---: | --- |
 | [LiteLLM](https://github.com/BerriAI/litellm) | [![Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers) | Universal LLM proxy, budget limits, rate limiting & guardrails |
 | [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | General-purpose policy engine for runtime AI decision rules |
@@ -611,7 +611,7 @@ Responsible AI programs need controls over sensitive information.
 
 
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | --- | :---: | --- |
 | [Open Policy Agent](https://github.com/open-policy-agent/opa) | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Fine-grained data access and privacy policy enforcement |
 | [Microsoft Presidio](https://github.com/microsoft/presidio) | [![Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers) | Production-grade PII detection and anonymization SDK |
@@ -658,7 +658,7 @@ What happened in production?
 
 
 
-| Project | Stars | Role |
+| Project | GitHub_Stars | Role |
 | --- | :---: | --- |
 | [DVC](https://github.com/iterative/dvc) | [![Stars](https://img.shields.io/github/stars/iterative/dvc?style=social&color=white)](https://github.com/iterative/dvc/stargazers) | Git-native data, ML pipeline, and model versioning |
 | [DataHub](https://github.com/datahub-project/datahub) | [![Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers) | Enterprise metadata catalog, lineage, and data governance |
@@ -679,7 +679,7 @@ What happened in production?
 A governance platform needs a central inventory of models and AI systems.
 
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | --- | :---: | --- |
 | [MLflow Model Registry](https://github.com/mlflow/mlflow) | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | Centralized model lifecycle management, approvals, and lineage |
 | [Kubeflow](https://github.com/kubeflow/kubeflow) | [![Stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=social&color=white)](https://github.com/kubeflow/kubeflow/stargazers) | Cloud-native ML orchestration platform on Kubernetes |
@@ -753,7 +753,7 @@ Governance therefore needs:
 
 
 
-| Project | Stars | Useful Capability |
+| Project | GitHub_Stars | Useful Capability |
 | --- | :---: | --- |
 | [AutoGen](https://github.com/microsoft/autogen) | [![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers) | Multi-agent framework with customizable conversation boundaries |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | [![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers) | Role-based autonomous agent orchestration & execution controls |
@@ -2156,3 +2156,12 @@ consider giving this repository a ⭐ **Star** and contributing new projects.
 
 ---
 **Last updated: September 2026**
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Responsible-AI-Governance&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Responsible-AI-Governance_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Responsible-AI-Governance_growth.svg">
+  </picture>
+</a>

@@ -889,21 +889,13 @@ Responsible AI governance needs standardized documentation.
 
 
 | Project / Standard                                                           | Purpose                           |
-
 | ---------------------------------------------------------------------------- | --------------------------------- |
-
 | [Model Cards Toolkit](https://github.com/tensorflow/model-card-toolkit)      | Model documentation               |
-
 | [Datasheets for Datasets](https://arxiv.org/abs/1803.09010)                  | Dataset documentation methodology |
-
 | [Data Cards](https://github.com/IBM/data-prep-kit)                           | Dataset transparency              |
-
 | [MLflow](https://github.com/mlflow/mlflow)                                   | Experiment/model metadata         |
-
 | [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards)      | Model transparency                |
-
 | [Hugging Face Dataset Cards](https://huggingface.co/docs/hub/datasets-cards) | Dataset transparency              |
-
 | [Screening Decisions Profile](https://github.com/Allowly-AI/screening-decisions-profile) | Signed employment-screening decision records and validators |
 
 
@@ -2962,41 +2954,23 @@ If only a handful of projects are selected, a particularly strong starting combi
 
 
 | Layer              | Project               |
-
 | ------------------ | --------------------- |
-
 | AI Registry        | **MLflow**            |
-
 | Governance Testing | **AI Verify**         |
-
 | Fairness           | **Fairlearn**         |
-
 | Bias Mitigation    | **AIF360**            |
-
 | Explainability     | **SHAP**              |
-
 | Monitoring         | **Evidently**         |
-
 | AI Testing         | **Giskard**           |
-
 | LLM Evaluation     | **Inspect AI**        |
-
 | Red Teaming        | **PyRIT**             |
-
 | LLM Security       | **Garak**             |
-
 | Guardrails         | **NeMo Guardrails**   |
-
 | Privacy            | **Presidio**          |
-
 | Policy             | **Open Policy Agent** |
-
 | Lineage            | **OpenLineage**       |
-
 | Metadata           | **OpenMetadata**      |
-
 | Observability      | **OpenTelemetry**     |
-
 | Dashboards         | **Grafana**           |
 
 
